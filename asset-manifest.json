@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/liste-des-amis/static/css/main.0882a259.css",
-    "main.js": "/liste-des-amis/static/js/main.e464c97c.js",
+    "main.js": "/liste-des-amis/static/js/main.ce6953c8.js",
     "index.html": "/liste-des-amis/index.html",
     "main.0882a259.css.map": "/liste-des-amis/static/css/main.0882a259.css.map",
-    "main.e464c97c.js.map": "/liste-des-amis/static/js/main.e464c97c.js.map"
+    "main.ce6953c8.js.map": "/liste-des-amis/static/js/main.ce6953c8.js.map"
   },
   "entrypoints": [
     "static/css/main.0882a259.css",
-    "static/js/main.e464c97c.js"
+    "static/js/main.ce6953c8.js"
   ]
 }
