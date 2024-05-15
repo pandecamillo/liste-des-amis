@@ -14,7 +14,7 @@ function HeaderUser(props) {
     <header className="my-header-user">
       <img
         className="back"
-        src="../icons/back.png"
+        src="icons/back.png"
         alt="back"
         onClick={goToApp}
       />
