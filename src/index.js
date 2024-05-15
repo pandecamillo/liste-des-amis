@@ -6,11 +6,11 @@ import PageUserEdit from "./pages/pageUserEdit";
 import PageUserRead from "./pages/pageUserRead";
 import Page404 from "./pages/page404";
 import "./style.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function PageRouter() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<PageApp />} />
         <Route path="new-user" element={<PageUserAdd />} />
@@ -18,7 +18,7 @@ function PageRouter() {
         <Route path="read-user/:id" element={<PageUserRead />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
